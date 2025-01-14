@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
     session({
-        secret:'g7-pixelg7hadry-sesionespersistentes',
+        secret:'p3-APJ#pixelg7hadry-SesionesPersistentes',
         resave: false,
         saveUninitialized: true,
         cookie: { maxAge: 24 * 60 * 60 * 1000} // 1 día
